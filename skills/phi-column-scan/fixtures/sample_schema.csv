@@ -1,0 +1,17 @@
+column_name,data_type,sample_value,description
+patient_name,varchar,Synthia Testworth,Patient full name
+date_of_birth,date,1985-03-15,Date of birth
+gender,varchar,F,Gender code
+ssn,varchar,000-00-0000,Social security number (synthetic)
+phone_number,varchar,555-555-0100,Phone number
+email,varchar,synthia@fakecorp.test,Email address
+street_address,varchar,123 Fake Lane,Street address line 1
+city,varchar,Anytown,City
+state,varchar,ZZ,State code
+zip_code,varchar,00000,ZIP code
+member_id,varchar,SYNTH-001,Member identifier
+plan_type,varchar,HMO,Plan type code
+diagnosis_code,varchar,Z00.00,ICD-10 diagnosis code
+claim_status,varchar,paid,Claim adjudication status
+batch_id,integer,42,ETL batch identifier
+notes,text,Follow-up scheduled,Free text notes

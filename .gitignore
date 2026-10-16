@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+*.so
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.tox/
+*.log
+.DS_Store
+Thumbs.db
+
+# Memory folder contents (PHI risk)
+memory/**/*.csv
+memory/**/*.json
+!memory/**/.gitkeep

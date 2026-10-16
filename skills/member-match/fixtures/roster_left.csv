@@ -1,0 +1,5 @@
+member_id,first_name,last_name,date_of_birth,ssn
+SYNTH-001,Synthia,Testworth,1985-03-15,
+SYNTH-002,Tester,McFakerson,1990-07-22,
+SYNTH-003,Fakey,Notreal,2001-11-01,
+SYNTH-004,Demo,Person,1975-05-30,

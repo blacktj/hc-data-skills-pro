@@ -1,0 +1,10 @@
+code,system
+E11.9,icd10
+Z00.00,icd10
+ZZZZZ,icd10
+99213,cpt
+9921,cpt
+0002-1433-80,ndc
+12345678901,ndc
+2160-0,loinc
+99999,loinc

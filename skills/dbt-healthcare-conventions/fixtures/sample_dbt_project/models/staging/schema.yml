@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_payer_alpha__eligibility
+    description: "Staged eligibility data from Payer Alpha"
+    columns:
+      - name: member_id
+        description: "Unique member identifier"
+        tests:
+          - unique
+          - not_null
+      - name: effective_date
+        tests:
+          - not_null
+      - name: term_date
+        tests:
+          - not_null
+
+  - name: bad_naming_model
+    columns:
+      - name: encounter_id
+        tests:
+          - not_null
+      - name: patient_id

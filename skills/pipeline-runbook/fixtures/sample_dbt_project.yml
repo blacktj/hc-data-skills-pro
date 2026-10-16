@@ -1,0 +1,6 @@
+name: synth_eligibility_pipeline
+version: '1.0.0'
+config-version: 2
+profile: synth_warehouse
+model-paths: ["models"]
+test-paths: ["tests"]

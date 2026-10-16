@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# hc-data-skills PHI guard — pre-commit hook
+# Install: cp this file to .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+# Or: hcskills install-hook (future)
+
+set -euo pipefail
+
+if ! command -v hcskills &>/dev/null; then
+    echo "WARNING: hcskills not found on PATH — skipping PHI guard."
+    echo "Install with: pipx install hc-data-skills"
+    exit 0
+fi
+
+hcskills guard --staged
