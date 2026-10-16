@@ -1,0 +1,13 @@
+column_name,data_type,sample_value,description
+member_id,varchar,MBR-SYNTH-001,Unique member identifier
+first_name,varchar,Synthia,Member first name
+last_name,varchar,Testworth,Member last name
+date_of_birth,date,1985-03-15,Member date of birth
+gender,varchar,F,Gender code
+subscriber_id,varchar,SUB-SYNTH-001,Subscriber ID on the plan
+plan_id,varchar,PLN-HMO-100,Health plan identifier
+coverage_start,date,2023-01-01,Start of coverage
+coverage_end,date,2023-12-31,End of coverage
+payer_name,varchar,Synthetic Health Plan,Payer display name
+custom_risk_score,float,1.25,Proprietary risk score
+internal_batch_id,integer,42,ETL batch tracking number

@@ -1,0 +1,4 @@
+member_id,first_name,last_name,date_of_birth,gender,ssn,phone,email,zip_code,plan_type,diagnosis_code
+SYNTH-001,Synthia,Testworth,1985-03-15,F,000-00-0000,555-555-0100,synthia@fakecorp.test,00000,HMO,Z00.00
+SYNTH-002,Tester,McFakerson,1990-07-22,M,000-00-0000,555-555-0200,tester@fakecorp.test,00000,PPO,Z23
+SYNTH-003,Fakey,Notreal,2001-11-01,F,000-00-0000,555-555-0300,fakey@fakecorp.test,00000,HMO,Z01.419

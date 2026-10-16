@@ -1,0 +1,5 @@
+member_id,first_name,last_name,date_of_birth,ssn
+EXT-001,Synthia,Testworth,1985-03-15,
+EXT-002,Testr,McFakerson,1990-07-22,
+EXT-003,F.,Notreal,2001-11-01,
+EXT-999,Totally,Different,2000-01-01,

@@ -1,0 +1,6 @@
+name: synth_healthcare
+version: '1.0.0'
+config-version: 2
+profile: synth_healthcare
+model-paths: ["models"]
+test-paths: ["tests"]

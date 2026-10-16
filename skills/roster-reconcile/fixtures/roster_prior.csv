@@ -1,0 +1,5 @@
+member_id,first_name,last_name,date_of_birth,plan_type
+SYNTH-001,Synthia,Testworth,1985-03-15,HMO
+SYNTH-002,Tester,McFakerson,1990-07-22,PPO
+SYNTH-003,Fakey,Notreal,2001-11-01,HMO
+SYNTH-004,Droppy,Willleave,1978-06-10,PPO
